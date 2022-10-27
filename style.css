@@ -5,20 +5,19 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.eisenhower-matrix {
+.eisenhower__matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.eisenhower-matrix 
-.eisenhower-matrix-img {
+.eisenhower__matrix 
+.eisenhower__matrix_img {
     width: 100%;
 }
 
-.eisenhower-matrix 
-.more-inf {
+.eisenhower__matrix_more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -34,13 +33,13 @@ body {
     margin: 0 auto 0;
 }
 
-.task {
+.centered-element__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
-.task-wrapper {
+.centered-element__task-wrapper{
     display: flex;
 }
 
@@ -75,8 +74,7 @@ button{
 
 /* Heading */
 
-.title,
-.new-task-title {
+.centered-element__title{
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -86,7 +84,7 @@ button{
     text-transform: uppercase;
 }
 
-.task-input {
+.centered-element__task-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -99,13 +97,13 @@ button{
     color: #888;
 }
 
-.task-input:focus {
+.centered-element__task-input:focus {
     color: #333;
 }
 
 /* New Task */
 
-.new-task-label {
+.centered-element__new-task-label {
     display: block;
     margin: 0 0 20px;
 }
@@ -114,13 +112,13 @@ button{
     width: 318px;
 }
 
-.task-item > * {
+.centered-element__task-item > * {
     vertical-align: middle;
 }
 
 /* Task list */
 
-.task-item {
+.centered-element__task-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -129,18 +127,18 @@ button{
     align-items: center;
 }
 
-.task-item > .check-complete {
+.centered-element__task-item > .centered-element__check-complete {
     margin: 0 10px;
 }
 
-.task-item > .task {
+.centered-element__task-item > .centered-element__task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-.task-item > .task-input {
+.centered-element__task-item > .centered-element__task-input {
     width: 226px;
 }
 
@@ -159,27 +157,27 @@ button{
 /* Completed */
 
 #completed 
-.task {
+.centered-element__task {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.task-list 
-.task-item 
-.task-input {
+.centered-element__task-list 
+.centered-element__task-item 
+.centered-element__task-input {
     display: none;
 }
 
-.task-list 
-.task-item.edit-mode 
-.task-input {
+.centered-element__task-list 
+.centered-element__task-item.edit-mode 
+.centered-element__task-input {
     display: inline-block;
     width: 224px;
 }
 
-.task-list 
-.task-item.edit-mode 
-.task-label {
+.centered-element__task-list 
+.centered-element__task-item.edit-mode 
+.centered-element__task-label {
     display: none;
 }

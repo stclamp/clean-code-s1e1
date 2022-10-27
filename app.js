@@ -34,16 +34,16 @@ var createNewTaskElement=function(taskString){
 
     // editButton.classList.add('btn')
 
-    listItem.className = 'task-item'
+    listItem.className = 'centered-element__task-item'
 
     label.innerText=taskString;
-    label.className='task task-label';
+    label.className='centered-element__task centered-element__task-label';
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    checkBox.className = "check-complete"
+    checkBox.className = "centered-element__check-complete"
     editInput.type="text";
-    editInput.className="task task-input";
+    editInput.className="centered-element__task centered-element__task-input";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="edit btn";
