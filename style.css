@@ -35,7 +35,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task-wrapper {
@@ -120,7 +120,6 @@ input,button{
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,13 +153,13 @@ input,button{
 /* Completed */
 
 #completed .task {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .task-list .task-item .task-input {
-    display: none
+    display: none;
 }
 
 .task-list .task-item.edit-mode .task-input {
